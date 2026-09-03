@@ -4,7 +4,7 @@ const http = require("http");
 
 const port = process.env.PORT || 8080; 
 
-const version = process.env.APP_VERSION || "1.0.0"; 
+const version = process.env.APP_VERSION || "2.0.0"; 
 
 const environment = process.env.APP_ENV || "cloud"; 
 
@@ -38,7 +38,18 @@ const orders = [
 
     city: "Mysuru" 
 
-  } 
+  },
+ {
+  id: "order-1003",
+3
+customerId: "cust-03",
+4
+amount: 7200,
+5
+status: "SHIPPED",
+6
+city: "Hubballi"
+ }
 
 ]; 
 
