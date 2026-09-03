@@ -41,13 +41,9 @@ const orders = [
   },
  {
   id: "order-1003",
-3
 customerId: "cust-03",
-4
 amount: 7200,
-5
 status: "SHIPPED",
-6
 city: "Hubballi"
  }
 
